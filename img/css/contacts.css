@@ -1,0 +1,96 @@
+.contacts {
+    padding: 40px 16px;
+    border-top: 1px #D6D6D6 solid;
+    border-bottom: 1px #D6D6D6 solid;
+}
+
+.contacts_wrapper h2 {
+font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+font-weight: 700;
+color: #191C47;
+margin-bottom: 35px;
+}
+
+.contacts_wrapper .info_about_us {
+font-family:'Roboto', sans-serif;
+font-weight: 400;
+font-size: 15px;
+color: #191C47;
+margin-bottom: 30px;
+}
+
+.contacts_wrapper .info_about {
+    font-family:'Roboto', sans-serif;
+font-weight: 400;
+font-size: 15px;
+color: #191C47;
+margin-bottom: 15px;
+}
+
+.input {
+    font-family:'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+    border: 2px #D6D6D6 solid;
+    border-radius: 3px; 
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.input_email {
+    height: 30px;
+}
+
+.input_text {
+height: 30px;
+}
+
+.input_textarea {
+   height: 90px;
+}
+
+.input_submit {
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500; 
+    color: #222223;
+    width: 110px;
+    height: 35px;
+    background-color:#D6D6D6 ;
+    border: none;
+    border-radius: 3px;
+}
+
+.input_submit:hover {
+   background-color: #9092B7;
+}
+
+
+@media screen and (min-width:768px) {
+    .contacts {
+        padding: 50px 47px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contacts_wrapper {
+        width: 45%;
+    }
+
+    .input_wrapper {
+        width: 45%;
+    }
+
+    .input {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width:1024px) {
+    .contacts {
+        padding: 50px 30px;
+    }
+}

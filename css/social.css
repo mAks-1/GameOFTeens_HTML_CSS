@@ -1,0 +1,85 @@
+.footer_wraper{
+    display: flex;
+    justify-content: space-between;
+    padding:15px 20px ;
+}
+.footer_icons{
+width: 20px;
+height: 20px;
+margin-bottom: 7px;
+
+}
+.logo{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    
+}
+.copyright{
+    font-family: 'Roboto Slab';
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    color: #777777;
+    margin-top: 10px;
+
+}
+.footer_img_wraper{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column
+}
+.logo_link{
+    height: 3%;
+}
+
+
+@media screen and (min-width:768px) {
+    .footer_wraper{
+        
+        padding: 15px;
+    }
+    .footer_icons{
+    width: 25px;
+    height: 25px;
+    
+    }
+  
+    .copyright{
+       
+        font-size: 15px;
+        
+       
+    
+    }
+    .footer_img_wraper{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 125px;
+    
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    
+    .footer_img_wraper{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 125px;
+    
+    }
+    .logo{
+       
+        font-size: 30px;
+     
+        
+    }
+}

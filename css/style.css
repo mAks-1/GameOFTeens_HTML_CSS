@@ -1,0 +1,23 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+@import url(./header.css);
+
+@import url(./section1.css);
+
+@import url(./about_us.css);
+
+@import url(./presentation.css);
+
+@import url(./reviews.css);
+
+@import url(./contacts.css);
+
+@import url(./social.css);
+
+@import url(../css/prices.css);

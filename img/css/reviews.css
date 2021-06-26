@@ -1,0 +1,74 @@
+.reviews{
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.title_review{
+padding-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+line-height: 1.2;
+font-weight: 700;
+color: #191C47;
+text-transform: uppercase;
+}
+.headtitle_review{
+    font-family: 'Roboto Slab';
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    color: #191C47;
+    margin-bottom: 30px;
+}
+.div_review{
+display: flex;
+flex-wrap: wrap;
+}
+.review{
+    width: 290px;
+    height: 180px;
+    border: 2px solid #D6D6D6;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 20px;
+}
+.comment{
+    font-family: 'Roboto Slab';
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    color: #191C47;
+    margin-bottom: 20px;
+}
+
+.comment::after{
+    content: '';
+    display: block;
+    height: 1px;
+    background: #D6D6D6;
+    width: 50%;
+    margin: 15px auto 0 auto;
+}
+.commentator{
+    font-family: 'Roboto Slab';
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    color: #191C47;
+    
+}
+
+@media screen and (min-width: 1024px){
+    .headtitle_review{
+   
+        font-size: 20px;
+        
+    }     
+}
